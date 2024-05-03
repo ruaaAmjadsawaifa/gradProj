@@ -1,0 +1,24 @@
+.container {
+  width: calc(100% - 110px);
+}
+.secBlocks {
+  display: flex;
+  padding: 1%;
+  gap: 1%;
+  /* background-color: #e1ebee; */
+}
+.block {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 15px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+.block:hover {
+  background-color: #e1ebee;
+}
+h2 {
+  color: #5072a7;
+  font-size: 1.1rem; /* حجم النص */
+  font-weight: 700;
+}
