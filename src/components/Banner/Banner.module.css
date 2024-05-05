@@ -11,6 +11,10 @@
   position: static;
   /* margin-bottom:5%; */
 }
+.nameCl{
+  color: #025b74;
+  font-size: 1.1rem;
+}
 .bannerImg {
   width: 15%;
 }
@@ -19,16 +23,35 @@
 }
 nav ul {
   display: flex;
+  gap: 10%;
+  margin-right: 80px
+
+}
+.banInf {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  gap: 20%;
+}
+.banInf h2{
+  font-size: 1.5rem;
+  font-weight: 680;
+  color:#008080;
+  font-weight: 650; 
 }
 nav ul li a {
-  color: #008e97;
-  font-weight: 650;
+  color:#008080;
+  font-weight: 620;
   transition: color 0.3s;
-  font-size: 1.2rem;
-  box-shadow: #0a2351;
+  font-size: 1.22rem;
+  font-family: "Segoe UI";
+  background-color: #eeee;
+  padding: 6px 15px;
+  /* text-align: center; */
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: #0a2351; */
 }
 nav ul li a:hover {
   color: #025b74;
+  padding: 9px 15px;
 }

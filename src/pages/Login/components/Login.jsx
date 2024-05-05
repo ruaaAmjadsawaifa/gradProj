@@ -5,6 +5,7 @@ import loginImg from'./assets/img/loginImg/kn.jpg'
 function Login() {
   return (
     <div className={style.loginSection}>
+      <div className={style.loginSectionForm}>
       <div className={style.container}>
         <div className={style.row}>
           <div className={style.loginImg}>
@@ -21,6 +22,7 @@ function Login() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

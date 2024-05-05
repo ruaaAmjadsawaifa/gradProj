@@ -23,12 +23,12 @@ function CreatSession() {
           <label htmlFor=" o2sat"> O2sat:</label>
           <input type="text" id=" o2sat" name=" o2sat" required />
         </div>
-        <div className={style.row}>
-        <div className={style.row}>
+        <div className={style.rowHW}>
+            <div className={style.rowHW}>
               <label htmlFor="height">Height</label>
               <input type="text" id="height" name="height" required />
             </div>
-            <div className={style.row}>
+            <div className={style.rowHW}>
               <label htmlFor="weight">Weight</label>
               <input type="text" id="weight" name="weight" required />
             </div>

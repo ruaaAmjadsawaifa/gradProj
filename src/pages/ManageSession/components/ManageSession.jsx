@@ -17,7 +17,7 @@ function ManageSession() {
           <label htmlFor="finalDiagnosis">Final Diagnosis:</label>
           <input type="text" id="finalDiagnosis" name="finalDiagnosis" required />
           {/* <label for="interactiveUrologicalSystem">Interactive Urological System:</label>
-          <input type="text" id="interactiveUrologicalSystem" name="interactiveUrologicalSystem" required /> */}
+          <input type="image" id="interactiveUrologicalSystem" name="interactiveUrologicalSystem" required /> */}
           <label htmlFor="carePlan">Care Plan:</label>
           <textarea id="carePlan" name="carePlan" required defaultValue={""} />
         </div>
