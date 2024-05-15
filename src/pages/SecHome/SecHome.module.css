@@ -1,4 +1,4 @@
-.searchSession {
+.addPatientSession {
   height: 88.7vh;
   background: linear-gradient(to right, #72a0c1, #5f9ea0);
   display: flex;
@@ -7,7 +7,7 @@
   /* justify-content: space-between; */
   padding: 1%;
 }
-.searchContainer {
+.addPatientContainer {
   width: 32%;
   margin: 5% auto;
   background-color: #fff;

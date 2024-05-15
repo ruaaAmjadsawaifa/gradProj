@@ -66,16 +66,18 @@ function PatientAppointments() {
 
   // الدالة التي تقوم بتحديد ما إذا كان الموعد محجوزًا بالفعل
   const isBookedAppointment = (time) => {
-    return bookedAppointments.some(
-      (appointment) => appointment.time === time
-    );
+    return bookedAppointments.some((appointment) => appointment.time === time);
   };
 
   // دالة لتحديد محتوى الخلية في التقويم
   const tileContent = ({ date, view }) => {
     if (view === "month") {
       const dateStr = date.toDateString();
-      if (bookedAppointments.some((appointment) => appointment.date.toDateString() === dateStr)) {
+      if (
+        bookedAppointments.some(
+          (appointment) => appointment.date.toDateString() === dateStr
+        )
+      ) {
         return <div className={style.bookedDate}></div>;
       }
     }

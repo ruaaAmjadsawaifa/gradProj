@@ -52,27 +52,27 @@
 
 /* تنسيق المواعيد المحجوزة */
 .bookedDate {
-    background-color: #ff00005c; /* يمكنك تغيير اللون كما تشاء */
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    margin: auto;
-  }
-  
-  /* تنسيق السهمان */
-  .react-calendar__navigation button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 0 5px; /* تعديل حجم السهمان حسب الحاجة */
-  }
-  
+  background-color: #ff00005c; /* يمكنك تغيير اللون كما تشاء */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}
+
+/* تنسيق السهمان */
+.react-calendar__navigation button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 5px; /* تعديل حجم السهمان حسب الحاجة */
+}
+
 /* تنسيق المواعيد المحجوزة */
 .bookedDate {
-    background-color: #ff00005c; /* يمكنك تغيير اللون كما تشاء */
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    margin: auto;
-  }
+  background-color: #ff00005c; /* يمكنك تغيير اللون كما تشاء */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+}

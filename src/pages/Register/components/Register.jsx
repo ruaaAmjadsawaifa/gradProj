@@ -1,9 +1,11 @@
-import React from 'react';
-import style from './Register.module.css';
+import React from "react";
+import style from "./Register.module.css";
+import SecNavbar from "../../../components/SecNavbar/SecNavbar";
 
 function Register() {
   return (
     <div className={style.registerPage}>
+      <SecNavbar />
       <div className={style.registerForm}>
         <form>
           <div className={style.row}>
@@ -23,7 +25,7 @@ function Register() {
             <select id="type" name="type" required>
               <option value="nurse">Nurse</option>
               <option value="secretary">Secretary</option>
-              <option value="radiologist">Doctor</option>
+              <option value="doctor">Doctor</option>
             </select>
           </div>
           <button type="submit">Register</button>
