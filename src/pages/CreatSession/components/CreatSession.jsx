@@ -33,29 +33,37 @@ function CreatSession() {
             </div>
           </div>
           <div>
-            <label htmlFor="presentIllness">Present Illness:</label>
+        <div className={style.row}>
+        <label htmlFor="presentIllness">Present Illness:</label>
             <textarea
               id="presentIllness"
               name="presentIllness"
               required
               defaultValue={""}
             />
-            <label htmlFor="diagnosticProcedures">Diagnostic Procedures:</label>
+        </div>
+       <div className={style.row}>
+       <label htmlFor="diagnosticProcedures">Diagnostic Procedures:</label>
             <textarea
               id="diagnosticProcedures"
               name="diagnosticProcedures"
               required
               defaultValue={""}
             />
-            <label htmlFor="medicalHistory">Medical History:</label>
+       </div>
+           <div className={style.row}>
+           <label htmlFor="medicalHistory">Medical History:</label>
             <textarea
               id="medicalHistory"
               name="medicalHistory"
               required
               defaultValue={""}
             />
-            {/* <label for="interactiveUrologicalSystem">Interactive Urological System:</label>
-          <input type="text" id="interactiveUrologicalSystem" name="interactiveUrologicalSystem" required /> */}
+           </div>
+           <div className={style.row}>
+           <label for="XrayImage">Xray image:</label>
+          <input type="file" id="XrayImage" name="XrayImage"  />
+           </div>
             <button type="submit" className="btnSave">
               Save
             </button>

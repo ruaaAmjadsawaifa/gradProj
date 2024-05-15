@@ -135,16 +135,6 @@ function PatientAppointments() {
               className={style.input}
             />
           </div>
-          <div className={style.row}>
-            <label className={style.label}>Phone Number:</label>
-            <input
-              type="text"
-              name="patientPhoneNumber"
-              value={appointmentInfo.patientPhoneNumber}
-              onChange={handleInputChange}
-              className={style.input}
-            />
-          </div>
         </div>
         <button onClick={handleAppointmentBooking} className={style.button}>
           Book Appointment
